@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js">
+    </script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style2.css">
+    <link rel="stylesheet" href="style3.css">
+</head>
+
+<body>
+    <center>
+        <div id="Paakehys">
+
+            <div id="otsiko">
+                <h1>HEDELMÄPELI</h1>
+            </div>
+
+            <div id="pisteet">
+                <p id="a1">
+                    RAHAA:
+                </p>
+                <div id="score">
+                    <div id="box1">
+                        <span id="panos"><span id="multiplier">0</span> €</span>
+                    </div>
+                </div>
+
+                <p id="a2"> TIEDOT:</p>
+                <div id="box2">
+                    <div id="score">
+                        <span id="panos"><div id="status">Ei Mitään!</div></span>
+                    </div>
+                </div>
+
+                <div id="kuvat2">
+                    <img src="seke1.png" alt="">
+                    <img src="seke2.png" alt="">
+                    <img src="seke3.png" alt="">
+                </div>
+            </div>
+
+            <div id="rulla">
+                <div class="koti">
+                    <div id="container">
+                        <div id="header">
+                            <h1>Slot Machine</h1>
+                            <h2>Pelaa ja voita</h2>
+                        </div>
+                        <div id="reels">
+                            <canvas id="canvas1" width="83" height="300"></canvas>
+                            <canvas id="canvas2" width="83" height="300"></canvas>
+                            <canvas id="canvas3" width="83" height="300"></canvas>
+                            <canvas id="canvas4" width="83" height="300"></canvas>
+                            <div id="overlay">
+                                <div id="winline"></div>
+                            </div>
+                        </div>
+                        <P id="s1"> Sinä voitat pelin helposti jos tulee 4 kolikoita. Tai voitat pisteen jos tulee 4 vastaavaa hedelmää.</P>
+                        <div id="buttons">
+                            <div id="play" class="button button-default">Pelaa</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+            <script type="text/javascript" src="js/slot.js"></script>
+            <script type="text/javascript">
+                $(function() {
+                    SlotGame();
+                });
+            </script>
+
+            <div id="kuvat">
+                <img src="A1.png" alt="">
+                <img src="A2.png" alt="">
+                <img src="A3.png" alt="">
+                <img src="A4.png" alt="">
+                <img src="B1.png" alt="">
+                <img src="B2.png" alt="">
+                <img src="B3.png" alt="">
+                <img src="B4.png" alt="">
+                <p>Khaled oli täällä</p>
+
+            </div>
+        </div>
+    </center>
+</body>
+<script src="script.js"></script>
+
+</html>

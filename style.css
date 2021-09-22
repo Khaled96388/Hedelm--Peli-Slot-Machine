@@ -1,0 +1,196 @@
+body {
+  background-color: rgb(211, 214, 208);
+}
+
+#Paakehys {
+  width: 900px;
+  height: 650px;
+  border: 5px dotted rgb(16, 1, 66);
+  background-color: white(32, 92, 77);
+  border-radius: 5px;
+  margin-top: 50px;
+  box-shadow: rgb(2, 2, 2);
+}
+
+#otsiko {
+  color: rgb(0, 0, 0);
+  padding-top: 20px;
+  width: 900px;
+  height: 50px;
+  background-color: white(20, 177, 143);
+}
+
+#otsiko h1 {
+  margin-top: 0;
+  font-size: 40px;
+  color: black(204, 246, 14);
+}
+
+#otsiko img {
+  width: 80px;
+  height: 40px;
+  margin-top: -200px;
+  margin-right: 5px;
+}
+
+#pisteet {
+  padding-top: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(20, 177, 143);
+  margin-top: 20px;
+  margin-right: 650px;
+}
+
+#kuvat2 img {
+  width: 55px;
+  height: 85px;
+  margin-top: 20px;
+}
+
+#box1 {
+  width: 180px;
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+}
+
+#box1.raha {
+  margin-top: 1px;
+}
+
+#box2 {
+  width: 180px;
+  height: 25px;
+  background-color: rgb(255, 255, 255);
+  margin-top: 5px;
+}
+
+#rulla {
+  padding-top: 10px;
+  width: 430px;
+  height: 400px;
+  background-color: rgb(20, 177, 143);
+  margin-top: -210px;
+}
+
+#rulla2 img {
+  width: 400px;
+  height: 400px;
+  position: relative;
+  top: -405px;
+}
+
+#pella button {
+  width: 200px;
+  height: 40px;
+  background-color: rgba(48, 87, 48, 0.876);
+  margin-top: 210px;
+  border-radius: 20px;
+}
+
+#alhalla {
+  color: rgb(0, 0, 0);
+  padding-top: 20px;
+  width: 900px;
+  height: 50px;
+  background-color: rgb(255, 209, 2);
+  margin-top: 30px;
+}
+
+#alhalla P {
+  font-size: 35px;
+  margin-top: auto;
+}
+
+#alhalla img {
+  margin-top: auto;
+  margin-left: 780px;
+  width: 50px;
+  height: 50px;
+}
+
+#app {
+  width: 400px;
+  height: 400px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.marker {
+  position: absolute;
+  width: 60px;
+  left: 172px;
+  top: -20px;
+  z-index: 2;
+}
+
+.wheel {
+  width: 100%;
+  height: 100%;
+}
+
+.button {
+  display: block;
+  width: 250px;
+  margin: 40px auto;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: 0.8;
+}
+
+.blur {
+  animation: blur 10s;
+}
+
+#kuvat {
+  padding-top: 10px;
+  width: 200px;
+  height: 200px;
+  background-color: rgb(20, 177, 143);
+  margin-top: -410px;
+  margin-left: 650px;
+}
+
+#kuvat img {
+  padding-top: 10px;
+  width: 200px;
+  height: 200px;
+  width: 40px;
+  height: 40px;
+  position: relative;
+  top: auto;
+}
+
+#kuvat p {
+  font-size: 30px;
+  color: black;
+  margin-top: 40px;
+}
+
+@keyframes blur {
+  0% {
+    filter: blur(1.5px);
+  }
+  80% {
+    filter: blur(1.5px);
+  }
+  100% {
+    filter: blur(0px);
+  }
+}
+
+#a1 {
+  margin-top: -7px;
+}
+
+#a2 {
+  margin-top: 3px;
+}
+
+#s1 {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  margin-top: 75px;
+}
